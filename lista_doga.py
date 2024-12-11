@@ -17,21 +17,25 @@ if 6 in random_numbers:
 else:
     print("Nincs 6-os a dobások között")
 
+#2.feladat
 print("2. feladat")
 tizen_nyolc_plusz = [i for i, num in enumerate(random_numbers) if num > 18]
 elso = tizen_nyolc_plusz[0]
 print(f"{elso} dobás kellet az első 18-nál nagyob szám kidobásához.")
 
+#3.feladat
 print("3. feladat")
 egyesek = random_numbers.count(1)
 print(f"Ennyi 1-est dobtál: {egyesek}")
 
+#4.feladat
 print("4. feladat")
 
 tizminusz = [i for i in random_numbers if i < 10]
 legnagyobb = max(tizminusz)
 print(f"A legnagyobb 10-nél kisebb szám: {legnagyobb}")
 
+#5.feladat
 print("5. feladat")
 
 negy_szorzat = 1
