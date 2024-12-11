@@ -10,6 +10,7 @@ random_numbers = [random.randint(1, 20) for _ in range(100)]
 
 print(random_numbers)
 
+#1.feladat
 print("1. feladat")
 if 6 in random_numbers:
     print("Van 6-os a dobások között.")
