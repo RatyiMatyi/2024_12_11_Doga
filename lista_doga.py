@@ -35,7 +35,8 @@ tizminusz = [i for i in random_numbers if i < 10]
 print(tizminusz)
 legnagyobb = max(tizminusz)
 print(f"A legnagyobb 10-nél kisebb szám: {legnagyobb}")
-print(random_numbers.index(legnagyobb))
+val = random_numbers.index(legnagyobb)
+print(f"{val}. dobás volt")
 
 #5.feladat
 print("5. feladat")
