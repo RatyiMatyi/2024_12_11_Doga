@@ -32,8 +32,10 @@ print(f"Ennyi 1-est dobtál: {egyesek}")
 print("4. feladat")
 
 tizminusz = [i for i in random_numbers if i < 10]
+print(tizminusz)
 legnagyobb = max(tizminusz)
 print(f"A legnagyobb 10-nél kisebb szám: {legnagyobb}")
+print(random_numbers.index(legnagyobb))
 
 #5.feladat
 print("5. feladat")
